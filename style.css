@@ -1,0 +1,110 @@
+body{
+    background-color: beige;
+    margin-bottom: 3em;
+  }
+  h1, h2{
+    text-align: center;
+    font-family:"Helvetica"
+  }
+  main{
+    display:flex;
+    width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 33%;
+    padding: 15px;
+    margin-bottom: 3em;
+  }
+  div{
+    border: 1px solid black;
+  }
+  #part1{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+  }
+  #part2{
+    height:100px;
+    width: 50px;
+    border: 1px solid black;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+  }
+  #part3{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+  }
+  #part4{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-right:0;
+    border-left: 0;
+  }
+  #part5{
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+  }
+  #part6{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
+  }
+  #part7{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+  }
+  #part8{
+    height:100px;
+    width: 50px;
+    border: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  #part9{
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+  }
+  #col1, #col2, #col3{
+    height: 83.3px;
+    width: 350px;
+  }
+  
+  #F1, #F2, #F3{
+    height: 250px;
+    width: 116.66px;
+  }
+  #LGBT-1, #LGBT-2, #LGBT-3, #LGBT-4, #LGBT-5, #LGBT-6{
+    height: 41.66px;
+    width: 350px;
+  }
+  #T1, #T2, #T3, #T4, #T5, #T6{
+    height: 50px;
+    width: 350px;
+  }
+  #J1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 250px;
+  }
+  #J2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #M1,#M2,#M3,#M4{
+    height: 62.5px;
+    width: 350px;
+  }
