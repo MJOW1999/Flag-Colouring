@@ -108,3 +108,19 @@ body{
     height: 62.5px;
     width: 350px;
   }
+  footer{
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-color: lightgray;
+    margin-bottom: -3em;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  a:hover{
+    color: red;
+  }
